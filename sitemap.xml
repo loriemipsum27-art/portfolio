@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página principal -->
+  <url>
+    <loc>https://loriemipsum27-art.github.io/portfolio/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- CSS -->
+  <url>
+    <loc>https://loriemipsum27-art.github.io/portfolio/mycss.css</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- JS -->
+  <url>
+    <loc>https://loriemipsum27-art.github.io/portfolio/myjs.js</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
