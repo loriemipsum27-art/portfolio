@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="mycss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SeuNome</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Início</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#projetos" class="nav-link">Projetos</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span class="highlight">Seu Nome</span></h1>
+            <p class="subtitle">Desenvolvedor Full Stack | React | Node.js | UI/UX</p>
+            <div class="buttons">
+                <a href="#projetos" class="btn primary">Ver Projetos</a>
+                <a href="#contato" class="btn secondary">Entrar em Contato</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/400" alt="Sua foto" id="profile-pic">
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Sou um desenvolvedor apaixonado por criar soluções digitais elegantes e funcionais. Tenho experiência com tecnologias modernas como React, Node.js, TypeScript, Docker e muito mais.</p>
+                    <p>Quando não estou programando, gosto de contribuir para projetos open-source, tocar violão e explorar novas tecnologias.</p>
+                    <div class="skills">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                        <span>Next.js</span>
+                        <span>Tailwind</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section bg-light">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 1">
+                    <div class="project-info">
+                        <h3>E-commerce Moderno</h3>
+                        <p>Loja virtual completa com carrinho, pagamento Stripe e painel admin.</p>
+                        <div class="tech">React, Node.js, MongoDB, Stripe</div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 2">
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Dashboard em tempo real com gráficos interativos e autenticação.</p>
+                        <div class="tech">Next.js, Tailwind, Chart.js, Prisma</div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 3">
+                    <div class="project-info">
+                        <h3>API RESTful</h3>
+                        <p>API completa com autenticação JWT, documentação Swagger e testes.</p>
+                        <div class="tech">Node.js, Express, PostgreSQL, Jest</div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Vamos Conversar?</h2>
+            <p>Estou aberto a novas oportunidades e projetos interessantes!</p>
+            <div class="contact-info">
+                <a href="mailto:seuemail@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> seuemail@gmail.com
+                </a>
+                <a href="https://linkedin.com/in/seuperfil" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i> linkedin.com/in/seuperfil
+                </a>
+                <a href="https://github.com/seuusuario" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i> github.com/seuusuario
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="myjs.js"></script>
+</body>
+</html>
