@@ -21,7 +21,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 5px;
+    padding: 20px 0;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
@@ -327,3 +327,4 @@ footer {
     }
 
 }
+
